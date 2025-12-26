@@ -1,0 +1,60 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;}
+
+/* Card styles */
+#card {
+    width: 90%;
+    max-width: 350px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 0 0 15px 0 rgba(67, 67, 67, 0.2);
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* QR Code wrapper styles */
+#qr-code-wrapper {
+    width: 100%;
+}
+
+#qr-code-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Info section styles */
+#info {
+    text-align: center;
+}
+
+#info h1 {
+   font-size: 1.125rem;
+  line-height: 1.3;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+#info p {
+    font-size: 0.875rem;
+  line-height: 1.5;
+  color: hsl(220, 15%, 55%);
+}
